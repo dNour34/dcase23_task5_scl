@@ -27,8 +27,8 @@ parser.add_argument("--ftlr", type=float, default=1e-2) #learning rate for finet
 parser.add_argument("--ftepochs", type=int, default=20) #nb of epochs to finetune on support set
 
 # data path
-parser.add_argument("--traindir", type=str, default='/users/local/i21moumm/dcase23/Development_Set/Training_Set') #root dir for the training dataset
-parser.add_argument("--valdir", type=str, default='/users/local/i21moumm/dcase23/Development_Set/Validation_Set') #root dir for the validation dataset
+parser.add_argument("--traindir", type=str, default='/content/drive/My Drive/DCASE-DATASET/Development_Set/Training_Set') #root dir for the training dataset
+parser.add_argument("--valdir", type=str, default='/content/drive/My Drive/DCASE-DATASET/Development_Set/Validation_Set') #root dir for the validation dataset
 
 # few shot
 parser.add_argument("--nshot", type=int, default=5) #number of shots
